@@ -23,11 +23,11 @@ You can choose one of:
 ```javascript
 angular.module('yourApp', ['kf.focusOn])
 
-    .controller('focusCtrl', ['$scope', function($scope) {
-        $scope.selectItem() = function() {
-            $scope.$broadcast('itemSelected');
-        };
-    }]);
+.controller('focusCtrl', ['$scope', function($scope) {
+    $scope.selectItem() = function() {
+        $scope.$broadcast('itemSelected');
+    };
+}]);
 ...
 
 ## TODO's
