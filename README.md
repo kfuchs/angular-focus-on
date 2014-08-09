@@ -12,6 +12,9 @@ You can choose one of:
 
 ## Simple Example
 
+Below is a quick example showing the usage, you can also see an examples in the [demo](demo) directory.
+
+[simple demo](https://rawgit.com/kfuchs/angular-focus-on/master/demo/simple/index.html)
 
 ```html
 <div ng-controller="focusCtrl">
