@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+  <div class="container">
+    <h1>Tags Stack overflow Style</h1>
+    <br>
+
+    <form role="form">
+      <div class="form-group">
+        <label for="exampleInputQuestion">Question Title:</label>
+        <input type="text" class="form-control" id="exampleInputQuestion" placeholder="What's your programming question?">
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputQuestionText">Your Question:</label>
+        <textarea id="exampleInputQuestionText" class="form-control" rows="6"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputQuestion">Tags:</label>
+        <input type="email" class="form-control" id="exampleInputTags" placeholder="At least one tag such as (mysql eclipse wpf)">
+      </div>
+
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+  <script src="../../src/focus-on.js"></script>
+  <script src="app.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+<div class="container">
+  <p>Click the item to focus on the input field.</p>
+  <input focus-on event="itemSelected">
+  <button ng-click="selectItem()">Item</button>
+</div>
+</body>
+</html>

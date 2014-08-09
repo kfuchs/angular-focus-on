@@ -1,0 +1,31 @@
+{
+	"name": "angular-focus-on",
+	"version": "0.10.0",
+    "main": "src/focus-on.js",
+	"authors": [
+		"Kirill Fuchs <krill.fuchs@gmail.com> (http://github.com/kfuchs)"
+	],
+	"description": "A directive to easily apply focus on an element through the use of events",
+	"keywords": [
+        "angularjs",
+        "focus"
+	],
+    "license": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/kfuchs/angular-focus-on/blob/master/LICENSE"
+        }
+    ],
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+    "dependencies": {
+        "angular": ">= 1.2.0"
+    },
+	"devDependencies": {
+	}
+}
