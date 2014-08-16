@@ -24,7 +24,7 @@ Below is a quick example showing the usage, you can also see an examples in the 
 ```
 
 ```javascript
-angular.module('yourApp', ['kf.focusOn])
+angular.module('yourApp', ['kf.focusOn'])
 
     .controller('focusCtrl', ['$scope', function($scope) {
         $scope.selectItem() = function() {
